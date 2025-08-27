@@ -106,3 +106,17 @@ body{
 
 }
 
+@media (max-width: 768px) {
+  .ig {
+    height: 50vh; /* ảnh thấp hơn chút để chừa chỗ cho chữ */
+    object-fit: contain; /* để tránh bị crop nhiều trên mobile */
+  }
+}
+
+/* Với màn hình siêu nhỏ (dưới 480px) */
+@media (max-width: 480px) {
+  .ig {
+    height: 30vh; /* giảm nữa để vừa khung điện thoại */
+    object-fit: contain;
+  }
+}
