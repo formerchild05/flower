@@ -1,3 +1,5 @@
+Copyright (c) 2024 GMP Sankalpa
+
 # Flower Animation
 
 A delightful web animation project showcasing the growth and beauty of flowers through CSS and JavaScript animations.
